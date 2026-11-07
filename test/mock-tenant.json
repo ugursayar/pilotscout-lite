@@ -1,0 +1,2667 @@
+{
+ "asOf": "2026-07-26T00:00:00Z",
+ "organization": {
+  "displayName": "Contoso (demo tenant)",
+  "id": "00000000-demo-0000-0000-000000000000"
+ },
+ "usageRetrievable": true,
+ "namesConcealed": false,
+ "usagePeriod": "D180",
+ "reportRefreshDate": "2026-07-26",
+ "subscribedSkus": [
+  {
+   "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb",
+   "skuPartNumber": "Microsoft_365_Copilot",
+   "prepaidUnits": {
+    "enabled": 100
+   },
+   "consumedUnits": 92,
+   "servicePlans": [
+    {
+     "servicePlanId": "82d30987-df9b-4486-b146-198b21d164c7",
+     "servicePlanName": "GRAPH_CONNECTORS_COPILOT"
+    },
+    {
+     "servicePlanId": "931e4a88-a67f-48b5-814f-16a5f1e6028d",
+     "servicePlanName": "M365_COPILOT_INTELLIGENT_SEARCH"
+    },
+    {
+     "servicePlanId": "3f30311c-6b1e-48a4-ab79-725b469da960",
+     "servicePlanName": "M365_COPILOT_BUSINESS_CHAT"
+    },
+    {
+     "servicePlanId": "b95945de-b3bd-46db-8437-f2beb6ea2347",
+     "servicePlanName": "M365_COPILOT_TEAMS"
+    },
+    {
+     "servicePlanId": "89f1c4c8-0878-40f7-804d-869c9128ab5d",
+     "servicePlanName": "M365_COPILOT_CONNECTORS"
+    },
+    {
+     "servicePlanId": "a62f8878-de10-42f3-b68f-6149a25ceb97",
+     "servicePlanName": "M365_COPILOT_APPS"
+    }
+   ]
+  },
+  {
+   "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965",
+   "skuPartNumber": "SPE_E3",
+   "prepaidUnits": {
+    "enabled": 120
+   },
+   "consumedUnits": 98,
+   "servicePlans": [
+    {
+     "servicePlanId": "efb87545-963c-4e0d-99df-69c6916d9eb0",
+     "servicePlanName": "EXCHANGE_S_ENTERPRISE"
+    },
+    {
+     "servicePlanId": "5dbe027f-2339-4123-9542-606e4d348a72",
+     "servicePlanName": "SHAREPOINTENTERPRISE"
+    },
+    {
+     "servicePlanId": "43de0ff5-c92c-492b-9116-175376d08c38",
+     "servicePlanName": "OFFICESUBSCRIPTION"
+    },
+    {
+     "servicePlanId": "57ff2da0-773e-42df-b2af-ffb7a2317929",
+     "servicePlanName": "TEAMS1"
+    },
+    {
+     "servicePlanId": "0d0c0d31-fae7-41f2-b909-eaf4d7f26dba",
+     "servicePlanName": "Bing_Chat_Enterprise"
+    }
+   ]
+  }
+ ],
+ "users": [
+  {
+   "id": "u-001",
+   "displayName": "Aylin Yılmaz",
+   "userPrincipalName": "aylin.yilmaz@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-002",
+   "displayName": "Aylin Kaya",
+   "userPrincipalName": "aylin.kaya@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-003",
+   "displayName": "Aylin Demir",
+   "userPrincipalName": "aylin.demir@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-004",
+   "displayName": "Aylin Şahin",
+   "userPrincipalName": "aylin.sahin@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-005",
+   "displayName": "Aylin Çelik",
+   "userPrincipalName": "aylin.celik@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-006",
+   "displayName": "Aylin Aydın",
+   "userPrincipalName": "aylin.aydin@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-007",
+   "displayName": "Aylin Öztürk",
+   "userPrincipalName": "aylin.ozturk@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-008",
+   "displayName": "Aylin Arslan",
+   "userPrincipalName": "aylin.arslan@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-009",
+   "displayName": "Aylin Doğan",
+   "userPrincipalName": "aylin.dogan@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-010",
+   "displayName": "Aylin Kılıç",
+   "userPrincipalName": "aylin.kilic@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-011",
+   "displayName": "Aylin Smith",
+   "userPrincipalName": "aylin.smith@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-012",
+   "displayName": "Aylin Jones",
+   "userPrincipalName": "aylin.jones@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-013",
+   "displayName": "Aylin Brown",
+   "userPrincipalName": "aylin.brown@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-014",
+   "displayName": "Aylin Miller",
+   "userPrincipalName": "aylin.miller@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-015",
+   "displayName": "Aylin Davis",
+   "userPrincipalName": "aylin.davis@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-016",
+   "displayName": "Aylin Wilson",
+   "userPrincipalName": "aylin.wilson@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-017",
+   "displayName": "Aylin Moore",
+   "userPrincipalName": "aylin.moore@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-018",
+   "displayName": "Aylin Taylor",
+   "userPrincipalName": "aylin.taylor@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-019",
+   "displayName": "Aylin Clark",
+   "userPrincipalName": "aylin.clark@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-020",
+   "displayName": "Aylin Lewis",
+   "userPrincipalName": "aylin.lewis@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-021",
+   "displayName": "Aylin Novak",
+   "userPrincipalName": "aylin.novak@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-022",
+   "displayName": "Aylin Silva",
+   "userPrincipalName": "aylin.silva@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-023",
+   "displayName": "Aylin Chen",
+   "userPrincipalName": "aylin.chen@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-024",
+   "displayName": "Aylin Patel",
+   "userPrincipalName": "aylin.patel@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-025",
+   "displayName": "Aylin Okoro",
+   "userPrincipalName": "aylin.okoro@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-026",
+   "displayName": "Aylin Ruiz",
+   "userPrincipalName": "aylin.ruiz@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-027",
+   "displayName": "Aylin Kowalski",
+   "userPrincipalName": "aylin.kowalski@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-028",
+   "displayName": "Aylin Fischer",
+   "userPrincipalName": "aylin.fischer@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-029",
+   "displayName": "Aylin Weber",
+   "userPrincipalName": "aylin.weber@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-030",
+   "displayName": "Aylin Rossi",
+   "userPrincipalName": "aylin.rossi@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-031",
+   "displayName": "Baran Yılmaz",
+   "userPrincipalName": "baran.yilmaz@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-032",
+   "displayName": "Baran Kaya",
+   "userPrincipalName": "baran.kaya@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-033",
+   "displayName": "Baran Demir",
+   "userPrincipalName": "baran.demir@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-034",
+   "displayName": "Baran Şahin",
+   "userPrincipalName": "baran.sahin@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-035",
+   "displayName": "Baran Çelik",
+   "userPrincipalName": "baran.celik@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-036",
+   "displayName": "Baran Aydın",
+   "userPrincipalName": "baran.aydin@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-037",
+   "displayName": "Baran Öztürk",
+   "userPrincipalName": "baran.ozturk@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-038",
+   "displayName": "Baran Arslan",
+   "userPrincipalName": "baran.arslan@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-039",
+   "displayName": "Baran Doğan",
+   "userPrincipalName": "baran.dogan@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-040",
+   "displayName": "Baran Kılıç",
+   "userPrincipalName": "baran.kilic@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-041",
+   "displayName": "Baran Smith",
+   "userPrincipalName": "baran.smith@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-042",
+   "displayName": "Baran Jones",
+   "userPrincipalName": "baran.jones@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-043",
+   "displayName": "Baran Brown",
+   "userPrincipalName": "baran.brown@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-044",
+   "displayName": "Baran Miller",
+   "userPrincipalName": "baran.miller@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-045",
+   "displayName": "Baran Davis",
+   "userPrincipalName": "baran.davis@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-046",
+   "displayName": "Baran Wilson",
+   "userPrincipalName": "baran.wilson@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-047",
+   "displayName": "Baran Moore",
+   "userPrincipalName": "baran.moore@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-048",
+   "displayName": "Baran Taylor",
+   "userPrincipalName": "baran.taylor@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-049",
+   "displayName": "Baran Clark",
+   "userPrincipalName": "baran.clark@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-050",
+   "displayName": "Baran Lewis",
+   "userPrincipalName": "baran.lewis@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-051",
+   "displayName": "Baran Novak",
+   "userPrincipalName": "baran.novak@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-052",
+   "displayName": "Baran Silva",
+   "userPrincipalName": "baran.silva@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-053",
+   "displayName": "Baran Chen",
+   "userPrincipalName": "baran.chen@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-054",
+   "displayName": "Baran Patel",
+   "userPrincipalName": "baran.patel@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-055",
+   "displayName": "Baran Okoro",
+   "userPrincipalName": "baran.okoro@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-056",
+   "displayName": "Baran Ruiz",
+   "userPrincipalName": "baran.ruiz@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-057",
+   "displayName": "Baran Kowalski",
+   "userPrincipalName": "baran.kowalski@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-058",
+   "displayName": "Baran Fischer",
+   "userPrincipalName": "baran.fischer@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-059",
+   "displayName": "Baran Weber",
+   "userPrincipalName": "baran.weber@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-060",
+   "displayName": "Baran Rossi",
+   "userPrincipalName": "baran.rossi@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-061",
+   "displayName": "Ceren Yılmaz",
+   "userPrincipalName": "ceren.yilmaz@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-062",
+   "displayName": "Ceren Kaya",
+   "userPrincipalName": "ceren.kaya@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-063",
+   "displayName": "Ceren Demir",
+   "userPrincipalName": "ceren.demir@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-064",
+   "displayName": "Ceren Şahin",
+   "userPrincipalName": "ceren.sahin@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-065",
+   "displayName": "Ceren Çelik",
+   "userPrincipalName": "ceren.celik@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-066",
+   "displayName": "Ceren Aydın",
+   "userPrincipalName": "ceren.aydin@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-067",
+   "displayName": "Ceren Öztürk",
+   "userPrincipalName": "ceren.ozturk@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-068",
+   "displayName": "Ceren Arslan",
+   "userPrincipalName": "ceren.arslan@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-069",
+   "displayName": "Ceren Doğan",
+   "userPrincipalName": "ceren.dogan@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-070",
+   "displayName": "Ceren Kılıç",
+   "userPrincipalName": "ceren.kilic@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-071",
+   "displayName": "Ceren Smith",
+   "userPrincipalName": "ceren.smith@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-072",
+   "displayName": "Ceren Jones",
+   "userPrincipalName": "ceren.jones@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-073",
+   "displayName": "Ceren Brown",
+   "userPrincipalName": "ceren.brown@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-074",
+   "displayName": "Ceren Miller",
+   "userPrincipalName": "ceren.miller@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-075",
+   "displayName": "Ceren Davis",
+   "userPrincipalName": "ceren.davis@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-076",
+   "displayName": "Ceren Wilson",
+   "userPrincipalName": "ceren.wilson@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-077",
+   "displayName": "Ceren Moore",
+   "userPrincipalName": "ceren.moore@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-078",
+   "displayName": "Ceren Taylor",
+   "userPrincipalName": "ceren.taylor@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-079",
+   "displayName": "Ceren Clark",
+   "userPrincipalName": "ceren.clark@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-080",
+   "displayName": "Ceren Lewis",
+   "userPrincipalName": "ceren.lewis@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-081",
+   "displayName": "Ceren Novak",
+   "userPrincipalName": "ceren.novak@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-082",
+   "displayName": "Ceren Silva",
+   "userPrincipalName": "ceren.silva@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-083",
+   "displayName": "Ceren Chen",
+   "userPrincipalName": "ceren.chen@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-084",
+   "displayName": "Ceren Patel",
+   "userPrincipalName": "ceren.patel@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-085",
+   "displayName": "Ceren Okoro",
+   "userPrincipalName": "ceren.okoro@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-086",
+   "displayName": "Ceren Ruiz",
+   "userPrincipalName": "ceren.ruiz@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-087",
+   "displayName": "Ceren Kowalski",
+   "userPrincipalName": "ceren.kowalski@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-088",
+   "displayName": "Ceren Fischer",
+   "userPrincipalName": "ceren.fischer@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-089",
+   "displayName": "Ceren Weber",
+   "userPrincipalName": "ceren.weber@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2024-11-01T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-090",
+   "displayName": "Ceren Rossi",
+   "userPrincipalName": "ceren.rossi@contoso.com",
+   "accountEnabled": false,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-091",
+   "displayName": "Deniz Yılmaz",
+   "userPrincipalName": "deniz.yilmaz@contoso.com",
+   "accountEnabled": false,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-092",
+   "displayName": "Deniz Kaya",
+   "userPrincipalName": "deniz.kaya@contoso.com",
+   "accountEnabled": false,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    },
+    {
+     "skuId": "639dec6b-bb19-468b-871c-c5c441c4b0cb"
+    }
+   ]
+  },
+  {
+   "id": "u-093",
+   "displayName": "Deniz Demir",
+   "userPrincipalName": "deniz.demir@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    }
+   ]
+  },
+  {
+   "id": "u-094",
+   "displayName": "Deniz Şahin",
+   "userPrincipalName": "deniz.sahin@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    }
+   ]
+  },
+  {
+   "id": "u-095",
+   "displayName": "Deniz Çelik",
+   "userPrincipalName": "deniz.celik@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    }
+   ]
+  },
+  {
+   "id": "u-096",
+   "displayName": "Deniz Aydın",
+   "userPrincipalName": "deniz.aydin@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    }
+   ]
+  },
+  {
+   "id": "u-097",
+   "displayName": "Deniz Öztürk",
+   "userPrincipalName": "deniz.ozturk@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    }
+   ]
+  },
+  {
+   "id": "u-098",
+   "displayName": "Deniz Arslan",
+   "userPrincipalName": "deniz.arslan@contoso.com",
+   "accountEnabled": true,
+   "createdDateTime": "2025-03-15T09:00:00Z",
+   "assignedLicenses": [
+    {
+     "skuId": "05e9a617-0261-4cee-bb44-138d3ef5d965"
+    }
+   ]
+  }
+ ],
+ "copilotUsage": [
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.yilmaz@contoso.com",
+   "displayName": "Aylin Yılmaz",
+   "lastActivityDate": "2026-07-01",
+   "copilotChatLastActivityDate": "2026-07-01",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-01",
+   "wordCopilotLastActivityDate": "2026-07-01",
+   "excelCopilotLastActivityDate": "2026-07-01",
+   "powerPointCopilotLastActivityDate": "2026-07-01",
+   "outlookCopilotLastActivityDate": "2026-07-01",
+   "oneNoteCopilotLastActivityDate": "2026-07-01",
+   "loopCopilotLastActivityDate": "2026-07-01"
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.kaya@contoso.com",
+   "displayName": "Aylin Kaya",
+   "lastActivityDate": "2026-07-02",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-02",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.demir@contoso.com",
+   "displayName": "Aylin Demir",
+   "lastActivityDate": "2026-07-03",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-03",
+   "wordCopilotLastActivityDate": "2026-07-03",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.sahin@contoso.com",
+   "displayName": "Aylin Şahin",
+   "lastActivityDate": "2026-07-04",
+   "copilotChatLastActivityDate": "2026-07-04",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-04",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.celik@contoso.com",
+   "displayName": "Aylin Çelik",
+   "lastActivityDate": "2026-07-05",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-05",
+   "wordCopilotLastActivityDate": "2026-07-05",
+   "excelCopilotLastActivityDate": "2026-07-05",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.aydin@contoso.com",
+   "displayName": "Aylin Aydın",
+   "lastActivityDate": "2026-07-06",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-06",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "2026-07-06",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.ozturk@contoso.com",
+   "displayName": "Aylin Öztürk",
+   "lastActivityDate": "2026-07-07",
+   "copilotChatLastActivityDate": "2026-07-07",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-07",
+   "wordCopilotLastActivityDate": "2026-07-07",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "2026-07-07",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.arslan@contoso.com",
+   "displayName": "Aylin Arslan",
+   "lastActivityDate": "2026-07-08",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-08",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.dogan@contoso.com",
+   "displayName": "Aylin Doğan",
+   "lastActivityDate": "2026-07-09",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-09",
+   "wordCopilotLastActivityDate": "2026-07-09",
+   "excelCopilotLastActivityDate": "2026-07-09",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.kilic@contoso.com",
+   "displayName": "Aylin Kılıç",
+   "lastActivityDate": "2026-07-10",
+   "copilotChatLastActivityDate": "2026-07-10",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-10",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.smith@contoso.com",
+   "displayName": "Aylin Smith",
+   "lastActivityDate": "2026-07-11",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-11",
+   "wordCopilotLastActivityDate": "2026-07-11",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "2026-07-11",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "2026-07-11",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.jones@contoso.com",
+   "displayName": "Aylin Jones",
+   "lastActivityDate": "2026-07-12",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-12",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.brown@contoso.com",
+   "displayName": "Aylin Brown",
+   "lastActivityDate": "2026-07-13",
+   "copilotChatLastActivityDate": "2026-07-13",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-13",
+   "wordCopilotLastActivityDate": "2026-07-13",
+   "excelCopilotLastActivityDate": "2026-07-13",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "2026-07-13",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.miller@contoso.com",
+   "displayName": "Aylin Miller",
+   "lastActivityDate": "2026-07-14",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-14",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.davis@contoso.com",
+   "displayName": "Aylin Davis",
+   "lastActivityDate": "2026-07-15",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-15",
+   "wordCopilotLastActivityDate": "2026-07-15",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.wilson@contoso.com",
+   "displayName": "Aylin Wilson",
+   "lastActivityDate": "2026-07-16",
+   "copilotChatLastActivityDate": "2026-07-16",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-16",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "2026-07-16",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.moore@contoso.com",
+   "displayName": "Aylin Moore",
+   "lastActivityDate": "2026-07-17",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-17",
+   "wordCopilotLastActivityDate": "2026-07-17",
+   "excelCopilotLastActivityDate": "2026-07-17",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.taylor@contoso.com",
+   "displayName": "Aylin Taylor",
+   "lastActivityDate": "2026-07-18",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-18",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": "2026-07-18"
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.clark@contoso.com",
+   "displayName": "Aylin Clark",
+   "lastActivityDate": "2026-07-19",
+   "copilotChatLastActivityDate": "2026-07-19",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-19",
+   "wordCopilotLastActivityDate": "2026-07-19",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "2026-07-19",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.lewis@contoso.com",
+   "displayName": "Aylin Lewis",
+   "lastActivityDate": "2026-07-20",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-20",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.novak@contoso.com",
+   "displayName": "Aylin Novak",
+   "lastActivityDate": "2026-07-21",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-21",
+   "wordCopilotLastActivityDate": "2026-07-21",
+   "excelCopilotLastActivityDate": "2026-07-21",
+   "powerPointCopilotLastActivityDate": "2026-07-21",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "2026-07-21",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.silva@contoso.com",
+   "displayName": "Aylin Silva",
+   "lastActivityDate": "2026-07-22",
+   "copilotChatLastActivityDate": "2026-07-22",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-22",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.chen@contoso.com",
+   "displayName": "Aylin Chen",
+   "lastActivityDate": "2026-07-23",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-23",
+   "wordCopilotLastActivityDate": "2026-07-23",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.patel@contoso.com",
+   "displayName": "Aylin Patel",
+   "lastActivityDate": "2026-07-24",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-24",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.okoro@contoso.com",
+   "displayName": "Aylin Okoro",
+   "lastActivityDate": "2026-07-01",
+   "copilotChatLastActivityDate": "2026-07-01",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-01",
+   "wordCopilotLastActivityDate": "2026-07-01",
+   "excelCopilotLastActivityDate": "2026-07-01",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "2026-07-01",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.ruiz@contoso.com",
+   "displayName": "Aylin Ruiz",
+   "lastActivityDate": "2026-07-02",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-02",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "2026-07-02",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.kowalski@contoso.com",
+   "displayName": "Aylin Kowalski",
+   "lastActivityDate": "2026-07-03",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-03",
+   "wordCopilotLastActivityDate": "2026-07-03",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.fischer@contoso.com",
+   "displayName": "Aylin Fischer",
+   "lastActivityDate": "2026-07-04",
+   "copilotChatLastActivityDate": "2026-07-04",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-04",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.weber@contoso.com",
+   "displayName": "Aylin Weber",
+   "lastActivityDate": "2026-07-05",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-05",
+   "wordCopilotLastActivityDate": "2026-07-05",
+   "excelCopilotLastActivityDate": "2026-07-05",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "aylin.rossi@contoso.com",
+   "displayName": "Aylin Rossi",
+   "lastActivityDate": "2026-07-06",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-06",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.yilmaz@contoso.com",
+   "displayName": "Baran Yılmaz",
+   "lastActivityDate": "2026-07-07",
+   "copilotChatLastActivityDate": "2026-07-07",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-07",
+   "wordCopilotLastActivityDate": "2026-07-07",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "2026-07-07",
+   "outlookCopilotLastActivityDate": "2026-07-07",
+   "oneNoteCopilotLastActivityDate": "2026-07-07",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.kaya@contoso.com",
+   "displayName": "Baran Kaya",
+   "lastActivityDate": "2026-07-08",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-08",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.demir@contoso.com",
+   "displayName": "Baran Demir",
+   "lastActivityDate": "2026-07-09",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-09",
+   "wordCopilotLastActivityDate": "2026-07-09",
+   "excelCopilotLastActivityDate": "2026-07-09",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.sahin@contoso.com",
+   "displayName": "Baran Şahin",
+   "lastActivityDate": "2026-07-10",
+   "copilotChatLastActivityDate": "2026-07-10",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-10",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.celik@contoso.com",
+   "displayName": "Baran Çelik",
+   "lastActivityDate": "2026-07-11",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-11",
+   "wordCopilotLastActivityDate": "2026-07-11",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": "2026-07-11"
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.aydin@contoso.com",
+   "displayName": "Baran Aydın",
+   "lastActivityDate": "2026-07-12",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-12",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "2026-07-12",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.ozturk@contoso.com",
+   "displayName": "Baran Öztürk",
+   "lastActivityDate": "2026-07-13",
+   "copilotChatLastActivityDate": "2026-07-13",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-13",
+   "wordCopilotLastActivityDate": "2026-07-13",
+   "excelCopilotLastActivityDate": "2026-07-13",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "2026-07-13",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.arslan@contoso.com",
+   "displayName": "Baran Arslan",
+   "lastActivityDate": "2026-07-14",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-14",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.dogan@contoso.com",
+   "displayName": "Baran Doğan",
+   "lastActivityDate": "2026-07-15",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-15",
+   "wordCopilotLastActivityDate": "2026-07-15",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.kilic@contoso.com",
+   "displayName": "Baran Kılıç",
+   "lastActivityDate": "2026-07-16",
+   "copilotChatLastActivityDate": "2026-07-16",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-16",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.smith@contoso.com",
+   "displayName": "Baran Smith",
+   "lastActivityDate": "2026-07-17",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-17",
+   "wordCopilotLastActivityDate": "2026-07-17",
+   "excelCopilotLastActivityDate": "2026-07-17",
+   "powerPointCopilotLastActivityDate": "2026-07-17",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "2026-07-17",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.jones@contoso.com",
+   "displayName": "Baran Jones",
+   "lastActivityDate": "2026-07-18",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-18",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.brown@contoso.com",
+   "displayName": "Baran Brown",
+   "lastActivityDate": "2026-07-19",
+   "copilotChatLastActivityDate": "2026-07-19",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-19",
+   "wordCopilotLastActivityDate": "2026-07-19",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "2026-07-19",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.miller@contoso.com",
+   "displayName": "Baran Miller",
+   "lastActivityDate": "2026-07-20",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-20",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.davis@contoso.com",
+   "displayName": "Baran Davis",
+   "lastActivityDate": "2026-07-21",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-21",
+   "wordCopilotLastActivityDate": "2026-07-21",
+   "excelCopilotLastActivityDate": "2026-07-21",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.wilson@contoso.com",
+   "displayName": "Baran Wilson",
+   "lastActivityDate": "2026-07-22",
+   "copilotChatLastActivityDate": "2026-07-22",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-22",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "2026-07-22",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.moore@contoso.com",
+   "displayName": "Baran Moore",
+   "lastActivityDate": "2026-07-23",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-23",
+   "wordCopilotLastActivityDate": "2026-07-23",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.taylor@contoso.com",
+   "displayName": "Baran Taylor",
+   "lastActivityDate": "2026-07-24",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-24",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.clark@contoso.com",
+   "displayName": "Baran Clark",
+   "lastActivityDate": "2026-07-01",
+   "copilotChatLastActivityDate": "2026-07-01",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-01",
+   "wordCopilotLastActivityDate": "2026-07-01",
+   "excelCopilotLastActivityDate": "2026-07-01",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "2026-07-01",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.lewis@contoso.com",
+   "displayName": "Baran Lewis",
+   "lastActivityDate": "2026-07-02",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-07-02",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.novak@contoso.com",
+   "displayName": "Baran Novak",
+   "lastActivityDate": "2026-07-03",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "2026-07-03",
+   "wordCopilotLastActivityDate": "2026-07-03",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "2026-07-03",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "2026-07-03",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.silva@contoso.com",
+   "displayName": "Baran Silva",
+   "lastActivityDate": "2026-07-05",
+   "copilotChatLastActivityDate": "2026-07-05",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.chen@contoso.com",
+   "displayName": "Baran Chen",
+   "lastActivityDate": "2026-07-06",
+   "copilotChatLastActivityDate": "2026-07-06",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.patel@contoso.com",
+   "displayName": "Baran Patel",
+   "lastActivityDate": "2026-07-07",
+   "copilotChatLastActivityDate": "2026-07-07",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.okoro@contoso.com",
+   "displayName": "Baran Okoro",
+   "lastActivityDate": "2026-07-08",
+   "copilotChatLastActivityDate": "2026-07-08",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.ruiz@contoso.com",
+   "displayName": "Baran Ruiz",
+   "lastActivityDate": "2026-07-09",
+   "copilotChatLastActivityDate": "2026-07-09",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.kowalski@contoso.com",
+   "displayName": "Baran Kowalski",
+   "lastActivityDate": "2026-07-10",
+   "copilotChatLastActivityDate": "2026-07-10",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.fischer@contoso.com",
+   "displayName": "Baran Fischer",
+   "lastActivityDate": "2026-07-11",
+   "copilotChatLastActivityDate": "2026-07-11",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.weber@contoso.com",
+   "displayName": "Baran Weber",
+   "lastActivityDate": "2026-07-12",
+   "copilotChatLastActivityDate": "2026-07-12",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "baran.rossi@contoso.com",
+   "displayName": "Baran Rossi",
+   "lastActivityDate": "2026-07-13",
+   "copilotChatLastActivityDate": "2026-07-13",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.yilmaz@contoso.com",
+   "displayName": "Ceren Yılmaz",
+   "lastActivityDate": "2026-07-14",
+   "copilotChatLastActivityDate": "2026-07-14",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.kaya@contoso.com",
+   "displayName": "Ceren Kaya",
+   "lastActivityDate": "2026-07-15",
+   "copilotChatLastActivityDate": "2026-07-15",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.demir@contoso.com",
+   "displayName": "Ceren Demir",
+   "lastActivityDate": "2026-07-16",
+   "copilotChatLastActivityDate": "2026-07-16",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.sahin@contoso.com",
+   "displayName": "Ceren Şahin",
+   "lastActivityDate": "2026-01-12",
+   "copilotChatLastActivityDate": "2026-01-12",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-01-12",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.celik@contoso.com",
+   "displayName": "Ceren Çelik",
+   "lastActivityDate": "2026-01-28",
+   "copilotChatLastActivityDate": "2026-01-28",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-01-28",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.aydin@contoso.com",
+   "displayName": "Ceren Aydın",
+   "lastActivityDate": "2026-02-05",
+   "copilotChatLastActivityDate": "2026-02-05",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-02-05",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.ozturk@contoso.com",
+   "displayName": "Ceren Öztürk",
+   "lastActivityDate": "2026-02-19",
+   "copilotChatLastActivityDate": "2026-02-19",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-02-19",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.arslan@contoso.com",
+   "displayName": "Ceren Arslan",
+   "lastActivityDate": "2026-03-03",
+   "copilotChatLastActivityDate": "2026-03-03",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-03-03",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.dogan@contoso.com",
+   "displayName": "Ceren Doğan",
+   "lastActivityDate": "2026-03-17",
+   "copilotChatLastActivityDate": "2026-03-17",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-03-17",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.kilic@contoso.com",
+   "displayName": "Ceren Kılıç",
+   "lastActivityDate": "2026-03-30",
+   "copilotChatLastActivityDate": "2026-03-30",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-03-30",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.smith@contoso.com",
+   "displayName": "Ceren Smith",
+   "lastActivityDate": "2026-04-10",
+   "copilotChatLastActivityDate": "2026-04-10",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-04-10",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.jones@contoso.com",
+   "displayName": "Ceren Jones",
+   "lastActivityDate": "2026-04-22",
+   "copilotChatLastActivityDate": "2026-04-22",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-04-22",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.brown@contoso.com",
+   "displayName": "Ceren Brown",
+   "lastActivityDate": "",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.miller@contoso.com",
+   "displayName": "Ceren Miller",
+   "lastActivityDate": "",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.davis@contoso.com",
+   "displayName": "Ceren Davis",
+   "lastActivityDate": "",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.wilson@contoso.com",
+   "displayName": "Ceren Wilson",
+   "lastActivityDate": "",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.moore@contoso.com",
+   "displayName": "Ceren Moore",
+   "lastActivityDate": "",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.taylor@contoso.com",
+   "displayName": "Ceren Taylor",
+   "lastActivityDate": "",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.clark@contoso.com",
+   "displayName": "Ceren Clark",
+   "lastActivityDate": "",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "ceren.rossi@contoso.com",
+   "displayName": "Ceren Rossi",
+   "lastActivityDate": "2026-02-10",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-02-10",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  },
+  {
+   "reportRefreshDate": "2026-07-26",
+   "userPrincipalName": "deniz.yilmaz@contoso.com",
+   "displayName": "Deniz Yılmaz",
+   "lastActivityDate": "2026-02-11",
+   "copilotChatLastActivityDate": "",
+   "microsoftTeamsCopilotLastActivityDate": "",
+   "wordCopilotLastActivityDate": "2026-02-11",
+   "excelCopilotLastActivityDate": "",
+   "powerPointCopilotLastActivityDate": "",
+   "outlookCopilotLastActivityDate": "",
+   "oneNoteCopilotLastActivityDate": "",
+   "loopCopilotLastActivityDate": ""
+  }
+ ]
+}

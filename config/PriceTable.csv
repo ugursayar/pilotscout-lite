@@ -1,0 +1,18 @@
+SkuPartNumber,FriendlyName,MonthlyPriceUSD,Notes
+# --------------------------------------------------------------------------------------------
+# PilotScout price table. Edit MonthlyPriceUSD to match YOUR agreement/region/currency.
+# This table only PRICES Copilot seats. Which SKUs are Copilot seats is read from the tenant: every
+# subscribed SKU that includes the M365_COPILOT_APPS service plan is audited - the add-on under any
+# part number - Copilot Business - and bundles such as Microsoft 365 E7. Copilot Chat on its own
+# (Bing_Chat_Enterprise - in E3/E5/Business plans) is free and never counted.
+# Rows are matched by SkuPartNumber. A Copilot SKU with no row here - or with a blank price - is priced at 30 USD and flagged
+# "price assumed" in the console and the report. To set its real price - e.g. Copilot Business
+# (21 USD list) or the Copilot-attributable part of a bundle - run  Get-MgSubscribedSku | Select SkuPartNumber
+# in your tenant and add or fill in a row below.
+# Microsoft 365 Copilot public list price is 30 USD/user/month (annual commitment) as of Jul 2026.
+# To leave a SKU out of the $ savings totals set its price to 0 (its seats are still counted).
+# Microsoft_365_Copilot_EDU: no Microsoft page states the EDU price - its price is left blank (30 USD assumed).
+# --------------------------------------------------------------------------------------------
+Microsoft_365_Copilot,Microsoft 365 Copilot,30,confirmed 2026 list (USD) - annual commitment
+M365_Copilot,Microsoft 365 Copilot,30,same product under a second part number (Learn licensing reference) - same list price
+Microsoft_365_Copilot_EDU,Microsoft 365 Copilot (Education),,no Microsoft page states the EDU price - set yours from your EES/CSP agreement
